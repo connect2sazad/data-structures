@@ -14,6 +14,7 @@ This is a set of different **Data Structures** programmed in different **Program
 
 [Queues]
 - [Queue using Array in C](https://github.com/connect2sazad/data-structures/blob/master/ds_c/queue_using_array.c)
+- [Queue using Array in Java](https://github.com/connect2sazad/data-structures/blob/master/ds_java/QueueUsingArray.java)
 
 
 ...and more to come.
