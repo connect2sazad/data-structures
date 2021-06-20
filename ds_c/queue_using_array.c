@@ -28,16 +28,16 @@ void enqueue( int val ){
 int dequeue(){
 
     // variable to store the first appended data
-    int deleted;
+    int dequeued;
 
     // check if the queue is empty
     if( front == -1 )
         printf( "UNDERFLOW" );
     else
-        deleted = arr[ front++ ];
+        dequeued = arr[ front++ ];
 
-    // returning the deleted value to the calling function
-    return deleted;
+    // returning the dequeued value to the calling function
+    return dequeued;
 
 }
 
@@ -63,7 +63,7 @@ void show(){
     // prompting the user for queue data display
     printf( "Queue contains: " );
 
-    // generating a loop through the queue using the peep() function declared above
+    // generating a loop through the queue using the get_front() and get_rear() function declared above
     for ( int i = get_front(); i <= get_rear(); i++ ){
         
         // printing each data in the queue
@@ -73,7 +73,7 @@ void show(){
 
 }
 
-// main function to demonstrate the function of above declared stack functions
+// main function to demonstrate the function of above declared queue functions
 void main(){
 
     // enqueuing some data
@@ -83,7 +83,7 @@ void main(){
     enqueue( 40 );
 
     // dequeuing first inserted data
-    printf( "Deleted: %d\n",  dequeue() );
+    printf( "Dequeued: %d\n",  dequeue() );
 
     // showing all the data inserted
     show();
