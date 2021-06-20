@@ -66,10 +66,10 @@ void peek(){
 void main(){
 
     // pushing some data
-    push(10);
-    push(20);
-    push(30);
-    push(40);
+    push( 10 );
+    push( 20 );
+    push( 30 );
+    push( 40 );
 
     // popping last inserted data
     printf( "Popped: %d\n",  pop() );
