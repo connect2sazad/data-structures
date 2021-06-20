@@ -1,5 +1,6 @@
 <?php      
 
+    # declaring a class of Stack
     class Stack{
         
         # setting up the initial value of top
