@@ -6,3 +6,6 @@ launch.json
 
 # compiled c, c++
 *.exe
+
+# compiled java
+*.class
