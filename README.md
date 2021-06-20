@@ -6,14 +6,14 @@ This is a set of different **Data Structures** programmed in different **Program
 
 [Stacks]
 - [Stack using Array in C](https://github.com/connect2sazad/data-structures/blob/master/ds_c/stack_using_array.c)
-- Stack using Array in Java
-- Stack using NumPy in Python
-- Stack using Array in GoLang
-- Stack using Array in JavaScript and HTML ( for output )
-- Stack using Array in PHP
+- [Stack using Array in Java](https://github.com/connect2sazad/data-structures/blob/master/ds_java/StackUsingArray.java)
+- [Stack using NumPy in Python](https://github.com/connect2sazad/data-structures/blob/master/ds_python/stack_using_numpy.py)
+- [Stack using Array in GoLang](https://github.com/connect2sazad/data-structures/blob/master/ds_golang/stack_using_array.go)
+- [Stack using Array in JavaScript and HTML ( for output )](https://github.com/connect2sazad/data-structures/blob/master/ds_javascript/stack_using_array.js)
+- [Stack using Array in PHP](https://github.com/connect2sazad/data-structures/blob/master/ds_php/stack_using_array.php)
 
 [Queues]
-- Queue using Array in C
+- [Queue using Array in C](https://github.com/connect2sazad/data-structures/blob/master/ds_c/queue_using_array.c)
 
 
 ...and more to come.
