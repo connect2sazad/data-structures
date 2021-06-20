@@ -1,4 +1,5 @@
 # data-structures
+[ [Author: Sazad Ahemad] ](https://github.com/connect2sazad)
 
 This is a set of different **Data Structures** programmed in different **Programming Languages**
 
