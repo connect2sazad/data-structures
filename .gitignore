@@ -3,3 +3,6 @@
 
 # launch
 launch.json
+
+# compiled c, c++
+*.exe

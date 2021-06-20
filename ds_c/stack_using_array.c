@@ -53,10 +53,10 @@ void peek(){
     printf( "Stack contains: " );
 
     // generating a lopop through the stack using the peep() function declared above
-    for ( int i = 0; i < peep(); i++ ){
+    for ( int i = 0; i <= peep(); i++ ){
         
         // printing each data in the stack
-        printf( "%d", arr[ i ] );
+        printf( "%d, ", arr[ i ] );
 
     }
 
@@ -72,12 +72,12 @@ void main(){
     push(40);
 
     // popping last inserted data
-    printf( "Popped: %d",  pop() );
+    printf( "Popped: %d\n",  pop() );
 
     // peeking all the data inserted
     peek();
 
     // printing the value of top
-    printf( "top: %d", peep() );
+    printf( "\ntop: %d\n", peep() );
 
 }
