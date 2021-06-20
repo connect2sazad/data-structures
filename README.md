@@ -5,7 +5,7 @@ This is a set of different **Data Structures** programmed in different **Program
 ## Current Contents:
 
 [Stacks]
-- Stack using Array in C
+- [Stack using Array in C] (https://github.com/connect2sazad/data-structures/blob/master/ds_c/stack_using_array.c)
 - Stack using Array in Java
 - Stack using NumPy in Python
 - Stack using Array in GoLang
