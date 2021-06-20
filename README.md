@@ -5,3 +5,4 @@ This is a set of different **Data Structures** programmed in different **Program
 Current Contents:
 - Stack using Array in C
 - Stack using Array in Java
+- Stack using NumPy in Python
