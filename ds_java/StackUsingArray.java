@@ -1,3 +1,5 @@
+package ds_java;
+
 public class StackUsingArray {
 
     // defining constants
@@ -53,7 +55,7 @@ public class StackUsingArray {
  
        // returning the popped value to the calling function
        return popped;
-       
+
     }
  
     // peek function to display all the data inserted to
