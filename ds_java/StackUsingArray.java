@@ -53,11 +53,13 @@ public class StackUsingArray {
  
        // returning the popped value to the calling function
        return popped;
+       
     }
  
     // peek function to display all the data inserted to
     // the stack
     void peek() {
+
        // prompting the user for stack display
        System.out.print( "StackUsingArray contains: " );
  
@@ -69,12 +71,13 @@ public class StackUsingArray {
           // printing each data in the stack
           System.out.print( this.arr[i] + ", " );
        }
+
     }
  
     // main function to demonstrate the function of above
     // declared stack functions
     public static void main(String[] args) {
-       
+
        // creating an object of StackUsingArray class
        StackUsingArray stack = new StackUsingArray();
  
@@ -93,5 +96,7 @@ public class StackUsingArray {
  
        // printing the value of top
        System.out.println( "top = " + stack.peep() );
+
     }
+
  }
