@@ -1,4 +1,4 @@
-public class Stack {
+public class StackUsingArray {
 
     // defining constants
     static final int STACK_SIZE = 10;
@@ -10,15 +10,15 @@ public class Stack {
     static int top = -1;
  
     // constructor to instantiate the stack
-    Stack() {
-       this.arr = new int[ Stack.STACK_SIZE ];
+    StackUsingArray() {
+       this.arr = new int[ StackUsingArray.STACK_SIZE ];
     }
  
     // peep function to get the index of the last data inserted
     int peep() {
 
        // returning the top value
-       return Stack.top;
+       return StackUsingArray.top;
 
     }
  
@@ -26,16 +26,16 @@ public class Stack {
     void push( int val ) {
  
        // check if the stack is full
-       if ( Stack.top == Stack.STACK_SIZE - 1 ) {
+       if ( StackUsingArray.top == StackUsingArray.STACK_SIZE - 1 ) {
           System.out.println( "OVERFLOW" );
           System.exit( 0 );
        }
 
        // increasing top value to store new data
-       Stack.top++; 
+       StackUsingArray.top++; 
 
        // storing the data to new top index
-       this.arr[ Stack.top ] = val;
+       this.arr[ StackUsingArray.top ] = val;
     }
  
     // pop function to remove the last appended data
@@ -45,11 +45,11 @@ public class Stack {
        int popped = 0;
  
        // check if the stack is empty
-       if ( Stack.top == -1 ) {
+       if ( StackUsingArray.top == -1 ) {
           System.out.println( "UNDERFLOW" );
           System.exit( 0 );
        } else
-          popped = this.arr[ Stack.top-- ];
+          popped = this.arr[ StackUsingArray.top-- ];
  
        // returning the popped value to the calling function
        return popped;
@@ -59,12 +59,12 @@ public class Stack {
     // the stack
     void peek() {
        // prompting the user for stack display
-       System.out.print( "Stack contains: " );
+       System.out.print( "StackUsingArray contains: " );
  
        // generating a loop through the stack using the
        // peep() function declared above by creating an
-       // object of Stack class
-       Stack stack = new Stack();
+       // object of StackUsingArray class
+       StackUsingArray stack = new StackUsingArray();
        for ( int i = 0; i <= stack.peep(); i++ ) {
           // printing each data in the stack
           System.out.print( this.arr[i] + ", " );
@@ -74,8 +74,9 @@ public class Stack {
     // main function to demonstrate the function of above
     // declared stack functions
     public static void main(String[] args) {
-       // creating an object of Stack class
-       Stack stack = new Stack();
+       
+       // creating an object of StackUsingArray class
+       StackUsingArray stack = new StackUsingArray();
  
        // pushing some data
        stack.push( 10 );
