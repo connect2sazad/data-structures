@@ -107,7 +107,7 @@ public class QueueUsingArray {
       // dequeuing last inserted data
       System.out.println( queue.dequeue() );
 
-      // peeking all the data inserted
+      // showing all the data inserted
       queue.show();
       System.out.println();
 
